@@ -2,20 +2,14 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "XXX",
-        "XAX",
-        "XBX"
+        "###",
+        "#K#",
+        "#S#"
     ],
     "key": {
-        "X": {
-            "item": "minecraft:waxed_oxidized_copper"
-        },
-        "A": {
-            "item": "minecraft:trial_key"
-        },
-        "B": {
-            "item": "minecraft:echo_shard"
-        }
+        "#": "minecraft:oxidized_copper",
+        "K": "trial_key",
+        "S": "echo_shard"
     },
     "result": {
         "id": "minecraft:ominous_trial_key"
